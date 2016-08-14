@@ -1,0 +1,27 @@
+{
+	"name": "my-hyperdev-app",
+	"version": "0.0.1",
+	"description": "What am I about?",
+	"main": "server.js",
+	"scripts": {
+	  "start": "bash test-and-launch.sh"
+	},
+	"dependencies": {
+		"express": "^4.12.4",
+		"mocha": "*",
+		"chai": "*"
+	},
+	"engines": {
+		"node": "4.4.3"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://hyperdev.com/#!/project/welcome-project"
+	},
+	"keywords": [
+		"node",
+		"hyperdev",
+		"express"
+	],
+	"license": "MIT"
+}
